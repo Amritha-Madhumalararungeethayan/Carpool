@@ -1,5 +1,4 @@
 const API_BASE = "https://carpool-0c58.onrender.com/api";
-
 document.addEventListener("DOMContentLoaded",()=>{
     const email = localStorage.getItem("userEmail");
     document.getElementById("userInfo").textContent = email ? `Logged in as ${email}` : "";
