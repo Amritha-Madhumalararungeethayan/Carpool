@@ -1,0 +1,51 @@
+body{
+  background-color: black;
+  color : white ; 
+  font-family: 'Courier New', monospace;
+  
+}
+h1{
+  text-align: center;
+  font-size: 100px;
+}
+p{
+  text-align: center;
+}
+
+#logout button { 
+  width: 100px;
+  font-size: larger;
+  color: black;
+  background-color: purple;
+  border-radius: 16px;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+input { width : 50%;
+align-items: center;}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+
+#createTrip button {
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: purple;
+    color: black;
+}
+
+#buttons button { 
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: purple;
+    color: black;
+    
+}

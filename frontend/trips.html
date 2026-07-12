@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips : Campus Carpool </title>
+    <link rel = "stylesheet" href="2.css">
+</head>
+<body>
+    <h1>Campus Carpool </h1>
+    <p id = "userInfo"></p>
+    <div id = "logout">
+    <button onclick = "logout()">Logout </button>
+    </div>
+
+    <div id = "form">
+    <h2>Post a trip</h2>
+        <input type = "text" id ="tripName" placeholder="Trip Name">
+        <input type = "text" id ="tripFrom" placeholder="From">
+        <input type = "text" id ="tripTo" placeholder="To">
+        <input type = "datetime-local" id ="tripTime">
+        <input type="number" id="tripSeats" placeholder="Total seats">
+        <input type="number" id="tripCost" placeholder="Cost per seat">
+        <input type = "text" id ="tripNotes" placeholder="Notes (optional)">
+
+        <div id = "createTrip"><button onclick="createTrip()">Create Trip</button>
+            </div>
+        
+
+
+    </div>
+    <p id="message"></p>
+    <h2>Available Trips</h2>
+    <div id = "tripsList"></div>
+    <script src = "trips.js"></script>
+    
+</body>
+</html>
