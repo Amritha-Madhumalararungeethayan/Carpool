@@ -33,7 +33,7 @@ exports.login = async(req,res)=>{
         const token = gentoken({id : user._id , email : user.email });
         res.cookie("token",token,{
             httpOnly : true ,
-            sameSite: "lax",
+            sameSite: "none",
             secure: false
         })
         res.json({
